@@ -1,0 +1,83 @@
+
+.contactbody
+{
+    background-color: #3D7A59;
+    
+}
+
+.cposition{
+    margin-top: 10%;
+}
+
+.white{
+    color: white;
+}
+
+.ContF
+{
+    background-color: #fff;
+    box-shadow:  -29px -29px 58px #33654a,
+             29px 29px 58px #478f68;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.HeaderText{
+    padding-top: 35px;
+    font-family: 'Rubik';
+}
+
+form{
+    margin: 35px;
+    width: 615px;
+    padding: 5%;
+}
+
+.formcontainer article input
+
+{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: -20px;
+    outline: none;
+    font-family: 'Rubik';
+}
+
+form textarea
+
+{
+    margin-top: -10px;
+    height: 75px;
+    width: 95%;
+    resize: none;
+    font-family:'Rubik';
+
+}
+
+.btn
+{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 18px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #EFAD3D;
+    font: normal normal 600 14px/17px Rubik;
+    cursor: pointer;
+    display:table-cell;
+    vertical-align:middle;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    
+}
+
+.formcontainer{
+    display: flex;
+}

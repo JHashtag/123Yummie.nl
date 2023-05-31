@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap" rel="stylesheet">
+        <!-- css/icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/contact.css">
+    
+        <title>123Yummie.nl</title>
+    </head>
+<body class="contactbody">
+    <header>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="over_ons.html">Over ons</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html#scrollintoview"">Contact</a>
+            <a href="download.html">Download</a>
+          </div>
+
+        <nav id="nav" class="ver1nav">
+
+            <button onclick="openNav()">
+                <img src="../media/img/sidebaricon.png" >
+            </button>  
+
+            <a href="../home.html" class="logo">
+                <img src="../media/img/logo.svg" alt="ons logo">
+            </a>
+
+            <ul>
+                <li><a id="navlink" class="navlink1" href="over_ons.html">
+                    Over ons
+                </a></li>
+                <li><a id="navlink2" class="navlink1" href="abonnementen.html">
+                    Abonnementen
+                </a></li>
+                <li><a id="navlink3" class="navlink1" href="contact.html#scrollintoview">
+                    Contact
+                </a></li>
+                <li id="download" class="download"><a  href="download.html">
+                    Download
+                </a><img src="../media/img/arrow-right.svg" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="scrollintoview" class="talign cposition">
+            <h3 class="bold">Contact</h3>
+            <h1 class="white boldbig">We zijn er om je te helpen en al je vragen te <br> beantwoorden. We horen graag van je!</h1>
+        </div>
+        
+        <div class="ContF">
+            <form action="https://formspree.io/f/xbjbkzgb" method="POST">
+            <form>
+                <div class="HeaderText">
+                    <h2 >Geïnteresseerd of heb je vragen?</h2>
+                    <p>Neem vrijblijvend contact op.</p>
+                </div>
+                <div class="formcontainer">
+                    <article>
+                        <input type="text" name="naam" placeholder="Voor- en Achternaam*">
+    
+                        <input type="text" name="telefoonnummer" placeholder="Telefoonnummer*">
+                    </article>
+                    <article>
+                        <input type="email" name="email" placeholder="E-Mailadres*">
+                        <input type="text" name="organisatie" placeholder="Organisatie">
+                    </article>
+                </div>
+                <textarea type="text" name="message"  placeholder="Eventuele opmerkingen."></textarea>
+
+                <input type="submit" value="Verzenden" class="btn">
+            </form>
+        </div>
+        
+        
+    </main>
+
+
+    <div class="bottomphonediv">
+
+        <article>
+            <img src="../media/img/logo2.png" alt="">
+            <div class="bottom-download">
+                <img src="../media/img/download_img.png" alt="">
+                <img src="../media/img/download_img.png" alt="">
+            </div>
+        </article>
+        <div class="bottommedia">
+            <div class="bottomtext">
+                <img src="../media/img/locationicon.svg"></img>
+                <a href="https://www.google.nl/maps/place/Hogeschoollaan+1,+4818+CR+Breda/@51.5840278,4.7934817,701m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c6a1d826c8567d:0xdaa7f5a2dd8692b6!8m2!3d51.5840246!4d4.797961" target="_blank">onze locatie</a>
+            </div>
+            <div class="bottomtext">
+                <img src="../media/img/mail_icon.svg"></img>
+                <a href="" target="_blank">Mail ons</a>
+            </div>
+            <div class="bottomtext">
+                <img src="../media/img/phone_icon.svg"></img>
+                <a href="https://www.google.nl/maps/place/Hogeschoollaan+1,+4818+CR+Breda/@51.5840278,4.7934817,701m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47c6a1d826c8567d:0xdaa7f5a2dd8692b6!8m2!3d51.5840246!4d4.797961" target="_blank">Bel ons</a>
+            </div>
+        </div>
+        <div class="bottommedia">
+            <h4>Over ons bedrijf</h4>
+            <p>123Yummie.nl is opgericht door 4 informatica studenten van de Avans Hogeschool te Breda.</p>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../java.js"></script>
+ 
+    <footer>
+        <p class="copy">© Copyright 2022 – 123 Yummie V.O.F.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+.cposition {
+  margin-top: 10%;
+}
+
+.abobody{
+    background-color: var(--color_1);
+}
+
+/* Plans */
+
+.container h2 {
+    color: #000000;
+    font-size: 32px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container{
+    margin-top: -20%;
+}
+
+.price-row {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.price-col {
+    background: white;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.price-col p {
+    font-size: 22px;
+    color: black;
+}
+
+.price-col h3 {
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.price-col article{
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+}
+
+.price-col article p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color_2);
+    padding-top: 15%;
+}
+
+.price-col ul {
+    text-align: left;
+    margin: 20px 0;
+    color: black;
+    font: var(--font);
+}
+
+.price-col ul li {
+    margin: 15px 0;
+    size: 20px;
+}
+
+.price-col button {
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.price-col button:hover {
+    background-color: var(--color_2);
+}
+
+
+.pricebuttons{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.pricebuttons div{
+    width: fit-content;
+    background-color: darkgreen;
+    border-radius: 30px;
+}
+
+.pricebuttons button{
+    padding: 20px;
+    background: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font: var(--font);
+    font-size: 25px;
+}
+
+.pricebuttons button:focus{
+    background-color: var(--color_2);
+    color: black;
+}
